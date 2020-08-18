@@ -1,0 +1,69 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
+body
+{
+    background-color: rgba(125, 0, 0, 0.87);
+    text-align: center;
+
+}
+.main1
+{
+    background-color: white;
+    height: auto;
+    width: 578px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+.sub
+{
+    width: 567px;
+    height: 78px;
+     
+     border: 2px solid black;
+     margin-left: auto;
+     margin-right: auto;
+     background-color: rgb(250, 246, 246);
+}
+button
+{
+padding: 2px;
+background-color: transparent;
+outline-style: none;
+}
+i
+{
+    padding: 5px;
+}
+select
+{
+    padding: 5px;
+    width: 95px;
+    border-radius:5px ;
+    background-color: transparent;
+}
+.main
+{
+    background-color: rgb(255, 255, 255);
+
+    overflow:hidden;
+    width: 567px;
+    height: 156px;
+     border:2px solid black;
+     text-align: left;
+     margin-left: auto;
+     margin-right: auto;
+}
+.main:hover
+{
+    overflow: scroll;
+}
+
+
+
