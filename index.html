@@ -1,86 +1,39 @@
 <!DOCTYPE html>
 <html>
     <head>
-        
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>
+            thangathirupathi
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
+        <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
-    <body>
-  <h1 style="color: white;justify-content: center;">Text Editor</h1>
+<body>
+<div class="main-container">
+    <div class="head">
+        <h1> my todo list</h1>
+        <h1  id="time"></h1>
+    </div>
+    <div class="input-container">
+     <input  autocomplete="off" id="input" type="text" placeholder="mytodo">
+        <button  id="btn" onclick="addli()">Add</button>
+        <div class="line"></div>
+    </div>
+    <div class="output-container">
+        <div id="list"></div>
+    </div>
+</div>
+<div id="footer">
+    <button><a href="">preview</a></button>
+    <button><a href="">1</a></button>
+    <button><a href="">2</a></button>
+    <button><a href="C:\Users\Thangathirupathi\Documents\New folder (3)\texteditor\index.html">3</a></button>
+    <button><a href="index.html">4</a></button>
+    <button><a href="">5</a></button>
+    <button><a href="">next</a></button>
 
-<div class="main1">
-        <div class="sub"><button onclick="SetToBold('bold'); "><i class="fa fa-bold"></i></button>
-            <button onclick="SetToBold('italic');"><i class="fa fa-italic"></i></button>
-            <button onclick="SetToBold('underline')"><i class="fa fa-underline"></i></button>
-            <button onclick="SetToBold('delete')"><i class="fa fa-eraser"></i></button>
-            <button onclick="SetToBold('undo')"><i class="fa fa-undo"></i></button>
-            <button onclick="SetToBold('redo')"><i class="fa fa-repeat"></i></button>
-            <button onclick="SetToBold('copy')"><i class="fa fa-copy"></i></button>
-            <button onclick="SetToBold('cut')"><i class="fa fa-cut"></i></button>
-            
-              <button onclick="SetToBold('insertorderedlist') "><i class="fa fa-list-ol"></i></button>
-              <button onclick="SetToBold('insertunorderedlist') "><i class="fa fa-list-ul"></i></button>
-              <button onclick="SetToBold('justifycenter') "><i class="fa fa-align-center"></i></button>
-              <button onclick="SetToBold('justifyleft') "><i class="fa fa-align-left"></i></button>
-              <button onclick="SetToBold('justifyright') "><i class="fa fa-align-right"></i></button>
-              <button onclick="SetToBold('justifyfull') "><i class="fa fa-align-justify"></i></button>
-              <button onclick="SetToBold('subscript') "><i class="fa fa-subscript"></i></button>
-              <button onclick="SetToBold('superscript') "><i class="fa fa-superscript"></i></button>
-          </br>
-          <select onchange="format('fontname',this.value)">
-              <option class="heading" selected>- Font -</option>
-              <option>Arial</option>
-              <option>Arial Black</option>
-              <option>Courier New</option>
-              <option>Times New Roman</option>
-              </select>
-              <select onchange="format('formatblock',this.value)">
-                  <option selected>- Title -</option>
-                  <option value="h1">Title 1 </option>
-                  <option value="h2">Title 2 </option>
-                  <option value="h3">Title 3 </option>
-                  <option value="h4">Title 4  </option>
-                  <option value="h5">Title 5 </option>
-                  <option value="h6">Subtitle</option>
-                  <option value="p">Paragraph</option>
-                  <option value="pre">Preformatted</option>
-                  </select>
-                  <select onchange="format('fontsize',this.value)">
-                      <option >-Font-size-</option>
-                      <option value="1">Very small</option>
-                       <option value="2">A bit small</option>
-                      <option value="3">Normal</option>
-                      <option value="4">Medium-large</option>
-                      <option value="5">Big</option>
-                      <option value="6">Very big</option>
-                      <option value="7">Maximum</option>
-                      </select>
-                      <select onchange="format('backColor',this.value)">
-                          <option >Background color</option>
-                          <option value="red">Red</option>
-                           <option value="green">Green</option>
-                          <option value="yellow">Yellow</option>
-                          <option value="blue">Blue</option>
-                          <option value="black">Black</option>
-                          </select>
-            
-                          <select onchange="format('fontColor',this.value)">
-                              <option >Font color</option>
-                              <option value="red">Red</option>
-                               <option value="green">Green</option>
-                              <option value="yellow">Yellow</option>
-                              <option value="blue">Blue</option>
-                              <option value="black">Black</option>
-                              </select>
-                
-            </div>
-       
-        <div class="main" contenteditable="true">Text Here!</div>
-        </div>
-
-
-    <script type="text/javascript" src="javascript.js">
-           
-    </script>
+</div>
+<script src="javascript.js"></script>
     </body>
-</html> 
+    </html>
