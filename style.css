@@ -1,69 +1,109 @@
 *
 {
-    padding: 0%;
-    margin: 0%;
     box-sizing: border-box;
-    
+
 }
 body
 {
-    background-color: rgba(125, 0, 0, 0.87);
+    padding: 0%;
+    margin: 0%;
+    background-color: black;
+}
+.main-container
+{
+    width: 456px;
+    height: 100vh;
+    background-color:rgb(240, 240, 235);
+    margin-right:auto ;
+    margin-left:auto ;
+    border-radius: 15px;
+}
+.head
+{
+    height:199px;
+    width: 456px;
+    background-image: url(https://png.pngtree.com/illustrations/20190321/ourlarge/pngtree-office-office-late-at-night-overtime-png-image_26462.jpg);
+    background-repeat: none;
+    background-size:cover;
+    border-radius: 15px;
+    color: white;
     text-align: center;
+    
+}
+input
+{
+    background-color: transparent;
+    border: none;
+    width: 375px;
+    height: 25px;
+    outline-style: none;
+    padding: 25px;
+    color: green;
 
-}
-.main1
-{
-    background-color: white;
-    height: auto;
-    width: 578px;
-    margin-top: 25px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 5px;
-}
-.sub
-{
-    width: 567px;
-    height: 78px;
-     
-     border: 2px solid black;
-     margin-left: auto;
-     margin-right: auto;
-     background-color: rgb(250, 246, 246);
+    font-size:25px;
+    
 }
 button
 {
-padding: 2px;
-background-color: transparent;
-outline-style: none;
-}
-i
-{
-    padding: 5px;
-}
-select
-{
-    padding: 5px;
-    width: 95px;
-    border-radius:5px ;
     background-color: transparent;
+    border: none;
+    height: 25px;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: rgb(4, 155, 29);
+    outline-style: none;
+    display: inline;
+
 }
-.main
+.line
 {
-    background-color: rgb(255, 255, 255);
-
-    overflow:hidden;
-    width: 567px;
-    height: 156px;
-     border:2px solid black;
-     text-align: left;
-     margin-left: auto;
-     margin-right: auto;
+    width: 410px;
+    border-top:2px solid black ;
+    margin-left:auto ;
+    margin-right: auto;
 }
-.main:hover
+.input-container
 {
-    overflow: scroll;
+    height: 45px;
+    width: 456px;
+    text-align: center;
+    
+
 }
 
+.del
+{
+    background-color:red;
+    margin-left: auto;
+    float: right;
+    
+}
+.edit
+{
+ background-color: blue;
+ float: right;
+ height: 25px;
+}
+.check
+{
+    display:inline-block;
+    margin-left:1px;
+    width: 20px;
+    
 
-
+}
+.output-container
+{
+    text-justify:left;
+    margin-top: 25px;
+    height: auto;
+}
+.li
+{
+display:  inline-block;
+width: 100%;
+margin-left:0%;
+font-size: 35px;
+float:left;
+color:brown;
+}
